@@ -17,4 +17,4 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push PaltaLibAnalytics.podspec --allow-warnings
+        pod trunk push PaltaLibAttribution.podspec --allow-warnings
