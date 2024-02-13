@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary               = 'PaltaLib iOS SDK - Attribution'
   spec.homepage              = 'https://github.com/Palta-Data-Platform/paltalib-ios'
   spec.author                = { "Palta" => "dev@palta.com" }
-  spec.source                = { :git => 'https://github.com/Palta-Data-Platform/paltalib-ios.git', :tag => "v#{spec.version}" }
+  spec.source                = { :git => 'https://github.com/Palta-Data-Platform/paltalib-swift-attribution.git', :tag => "v#{spec.version}" }
   spec.requires_arc          = true
   spec.static_framework      = true
   spec.ios.deployment_target = '10.0'
